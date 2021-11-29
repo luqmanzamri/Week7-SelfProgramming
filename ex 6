@@ -1,0 +1,36 @@
+package Selfprog;
+import java.util.Scanner;
+class ex6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int passwd =  66666;
+		Scanner scn = new Scanner (System.in);
+		int a = 0;
+
+	
+		System.out.println("Enter your password :");
+		passwd = scn.nextInt();
+		if (passwd == 66666)
+		{
+			System.out.println("Access granted");
+		}
+		else 
+		{
+			do {
+				if (passwd!=66666) {
+					System.out.println("Access denied");
+					System.out.println("Enter again");
+					passwd =scn.nextInt();
+				
+			}a++;
+		}
+			while(a<2);
+			System.out.println("Error");
+	
+		}
+
+	}
+
+}
