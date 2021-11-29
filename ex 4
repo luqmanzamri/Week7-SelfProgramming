@@ -1,0 +1,30 @@
+package Selfprog;
+import java.util.Scanner;
+class ex4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 int number = (int)(Math.random() * 101);
+		 Scanner input = new Scanner(System.in);
+		 int  j , i = -1;
+		 System.out.println("Ini adalah sistem meneka number");
+		 while (i != number) {
+			 System.out.println("Masukkan nombor antara 0 - 10 : "); 
+			 j = input.nextInt();
+			 if (j == number)
+				 System.out.println("tahniah");
+			 else if (j<= number) {
+				 System.out.println("maaf rendah");
+			 }
+			 else {
+				 System.out.println ("Maaf !! No Anda Terlalu Tinggi ");    
+			 }
+					 
+		 }
+	
+		 
+
+	}
+
+}
