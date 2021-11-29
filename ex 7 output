@@ -1,0 +1,5 @@
+1. A password must have at least eight characters.
+2. A password consists of only letters and digits.
+3. A password must contain at least two digits 
+ abc1234A
+Password is valid: abc1234A
