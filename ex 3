@@ -1,0 +1,29 @@
+package Selfprog;
+
+class ex3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int k = 20;
+		int h = 20;
+		int l;
+		while (k > 10) {
+	        System.out.println(k + "");
+	          k--; 
+	    }
+		
+		do {
+			System.out.println(h + "");
+			h--;
+		}while (h>10);
+		
+		for(l=20;l>10;l--) {
+			System.out.println(l + "");
+		}
+		
+			
+		
+
+	}
+
+}
